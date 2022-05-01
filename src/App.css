@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: #EDE6DB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #1A3C40;
+  margin: 0;
+}
+
+.Dark-App {
+  text-align: center;
+  background-color: #1A3C40;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #EDE6DB;
+}
+
+.Header {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.info-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  visibility: hidden;
+  position: absolute;
+  width: 170px;
+  margin-top: 60px;
+  margin-left: 0;
+}
+
+.info-div:hover .info-text {
+  visibility: visible;
+}
+
+.yak {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.yak-helper-text {
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  width: 190px;
+  margin-left: 82px;
+  margin-top: 8px;
+}
+
+.yak:hover .yak-helper-text {
+  visibility: visible;
+}
+
+.Seconds {
+  font-size: 20px;
+  margin-top: 100px;
+}
