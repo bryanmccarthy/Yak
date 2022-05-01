@@ -19,4 +19,4 @@ export const prompts = [
     "Tell Me About The Most Difficult Problem You faced?",
     "Tell Me About A Time You Disagreed With A Decision.",
     "What Is Your Leadership Style?"
-]
+  ]

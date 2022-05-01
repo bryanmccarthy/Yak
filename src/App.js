@@ -33,9 +33,7 @@ function App() {
   }, [isActive, seconds]);
 
   function displayPromptVisible() {
-
     setPrompt([fetchPrompt()]);
-
   }
 
   function fetchPrompt() {
