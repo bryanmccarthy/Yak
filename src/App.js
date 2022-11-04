@@ -53,27 +53,27 @@ function App() {
   }
 
   return (
-    <div className={ darkMode ? "Dark-App" : "App" }>
+    <div className={darkMode ? "Dark-App" : "App"}>
       <div className="Header">
         <div className="info-div">
-          <Button text="Info" mode={ darkMode ? true : false}/>
+          <Button text="Info" mode={darkMode ? true : false} />
           <span className="info-text">
             press yak and begin practicing the most popular interview questions
           </span>
         </div>
-        <Button onClick={toggleMode} text={ darkMode ? "Light" : "Dark" } mode={ darkMode ? true : false}/>
+        <Button onClick={toggleMode} text={darkMode ? "Light" : "Dark"} mode={darkMode ? true : false} />
       </div>
       <div className="yak">
-        <Button className="yak-button" onClick={displayPromptVisible} text="Yak" mode={ darkMode ? true : false}/>
+        <Button className="yak-button" onClick={displayPromptVisible} text="Yak" mode={darkMode ? true : false} />
         <span className="yak-helper-text">Get an Interview Question</span>
       </div>
-        <div className="App-Prompt">
-          { <DisplayPrompt text={prompt} key={Math.random()} /> }
-        </div>
-        <div className="Seconds">{seconds}s</div>
+      <div className="App-Prompt">
+        {<DisplayPrompt text={prompt} key={Math.random()} />}
+      </div>
+      <div className="Seconds">{seconds}s</div>
       <div>
-        <Button onClick={toggle} text= {isActive ? 'Pause' : 'Start'} mode={ darkMode ? true : false}/>
-        <Button onClick={reset} text="reset" mode={ darkMode ? true : false}/>
+        <Button onClick={toggle} text={isActive ? 'Pause' : 'Start'} mode={darkMode ? true : false} />
+        <Button onClick={reset} text="reset" mode={darkMode ? true : false} />
       </div>
     </div>
   );
