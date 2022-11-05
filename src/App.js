@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Button from './Components/Button/Button';
 import DisplayPrompt from './Components/Prompt/DisplayPrompt';
 import { prompts } from './Components/Prompt/prompts';
